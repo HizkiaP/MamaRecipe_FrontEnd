@@ -1,0 +1,29 @@
+.end {
+    width: 1519px;
+    height: 495px;
+    background-color: #EFC81A;
+}
+
+.eat {
+    font-size: 42px;
+    color: #2E266F;
+    margin-top: 150px;
+}
+
+.share {
+    font-size: 14px;
+    margin-bottom: 150px;
+    color: #707070;
+}
+
+li {
+    list-style: none;
+    font-size: 11px;
+    color: #707070;
+}
+
+.copyright {
+    color: #000;
+    font-size: 11px;
+    margin-left: 100px;
+}

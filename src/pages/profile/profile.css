@@ -1,0 +1,57 @@
+.add-pp {
+    width: 122px;
+    height: 122px;
+}
+
+.profile-name {
+    font-weight: 500;
+}
+
+.my-recipe {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.saved-recipe {
+    font-size: 14px;
+    list-style: none;
+}
+
+.liked-recipe {
+    font-size: 14px;
+    list-style: none;
+}
+
+.line {
+    width: 1920px;
+    height: 1px;
+    background-color: #DFDFDF;
+}
+
+.chicken-bomb {
+    width: 310px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.banana-pancake {
+    width: 310px;
+    height: 200px;
+    margin-bottom: 35px;
+}
+
+.chicken-text {
+    top: 150px;
+    left: 35px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.bananas-text {
+    top: 150px;
+    left: 365px;
+    color: #fff;
+    font-weight: 500;
+}

@@ -1,0 +1,22 @@
+.wrapper1 {
+    height: 100%;
+    background-image: linear-gradient(#EFC81A90 100%, #fff 0%), url("../images/bg-login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .wrapper2 {
+    border: 3px solid black;
+    padding-top: 310px;
+    padding-left: 9rem;
+    padding-right: 9rem;
+} */
+
+.regis-wrapper {
+    height: 100vh;
+}
+
+img.bground {
+    width: 101.5%;
+    height: 100%;
+}

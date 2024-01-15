@@ -1,0 +1,190 @@
+.hero-tagline {
+    margin-top: 100px;
+}
+
+.image-tagline {
+    width: 400px;
+    height: 400px;
+}
+
+.input-search {
+    top: 250px;
+}
+
+.inp-search {
+    width: 400px;
+    height: 50px;
+    background-color: #EFEFEF;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #B6B6B6;
+    padding-left: 50px;
+}
+
+.glass {
+    top: 262px;
+    left: 25px;
+}
+
+.magnifying {
+    width: 16px;
+    height: 16px;
+}
+
+.rectangle-popular {
+    width: 10px;
+    height: 60px;
+    background-color: #EFC81A;
+}
+
+.for {
+    bottom: 10px;
+    left: 70px;
+}
+
+.you {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3F3A3A;
+    margin-bottom: 50px;
+}
+
+.you1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3F3A3A;
+    margin-bottom: 10px;
+}
+
+.you2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3F3A3A;
+    margin-bottom: 10px;
+}
+
+.all-wrapper {
+    width: 1220px;
+    height: 528px;
+}
+
+.bread-wrapper {
+    margin-top: 50px;
+}
+
+.bread {
+    width: 430px;
+    height: 430px;
+}
+
+.bread-bor {
+    width: 383px;
+    height: 411px;
+    border: 2px solid #EFC81A;
+    border-radius: 5px;
+    top: 40px;
+    left: 70px;
+}
+
+.healthy-wrapper {
+    margin-top: 125px;
+    margin-bottom: 150px;
+}
+
+.line1 {
+    width: 50px;
+    height: 1px;
+    background-color: #6F6A40;
+    top: 250px;
+    left: 740px;
+}
+
+.quick {
+    bottom: 130px;
+    left: 740px;
+}
+
+.learn {
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #EFC81A;
+    border: none;
+    border-radius: 5px;
+    bottom: 115px;
+    left: 740px;
+    text-decoration: none;
+}
+
+.rectangle-section {
+    width: 270px;
+    height: 420px;
+    background-color: #EFC81A;
+    top: 20px;
+}
+
+.rectangle-new {
+    width: 10px;
+    height: 60px;
+    background-color: #EFC81A;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.burger-wrapper {
+    margin-top: 50px;
+}
+
+.rectangle-recipe {
+    width: 10px;
+    height: 60px;
+    background-color: #EFC81A;
+    margin-top: 50px;
+}
+
+.popularRecipe img {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.end1 {
+    width: 1519px;
+    height: 495px;
+    background-color: #EFC81A;
+    margin-top: 100px;
+}
+
+.kare-text {
+    bottom: 10px;
+    right: 360px;
+    font-size: 15px;
+    color: #3F3A3A;
+    font-weight: 700;
+}
+
+.bomb-text {
+    bottom: 10px;
+    left: 45px;
+    font-size: 15px;
+    color: #3F3A3A;
+    font-weight: 700;
+}
+
+.smoothie-text {
+    bottom: 10px;
+    left: 45px;
+    font-size: 15px;
+    color: #3F3A3A;
+    font-weight: 700;
+}
+
+.lava-text {
+    bottom: 10px;
+    right: 320px;
+    font-size: 15px;
+    color: #3F3A3A;
+    font-weight: 700;
+}
