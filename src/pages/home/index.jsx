@@ -1,7 +1,7 @@
-import React from 'react'
+// import React from 'react'
 import Navbar from '../../components/module/navbar'
 import Footer from '../../components/module/footer'
-import { Outlet } from 'react-router-dom'
+// import { Outlet } from 'react-router-dom'
 import Image from '../../../asset/images/boiled-egg.png'
 import Image2 from '../../../asset/images/Group 687.svg'
 import Image3 from '../../../asset/images/bread-toast.png'
@@ -12,7 +12,7 @@ import Image7 from '../../../asset/images/banana-smoothie.png'
 import Image8 from '../../../asset/images/cake-coffee.png'
 import Image9 from '../../../asset/images/salmon-sugar.png'
 import Image10 from '../../../asset/images/salad-indian.png'
-import {useSelector, useDispatch} from 'react-redux'
+// import {useSelector, useDispatch} from 'react-redux'
 import './home.css'
 
 
@@ -26,8 +26,6 @@ const Main = () => {
     <>
     <Navbar/>
 
-
-    
     <section id="hero">
         <div className="container-fluid">
             <div className="container">

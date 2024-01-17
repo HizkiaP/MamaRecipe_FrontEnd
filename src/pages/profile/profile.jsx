@@ -7,31 +7,30 @@ import Card from "../../components/module/card";
 import "./profile.css";
 import Navbar from "../../components/module/navbar";
 import Footer from "../../components/module/footer";
-import { useDispatch } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { getRecipe } from "../../configs/redux/action/recipeAction";
 
 const Profile = () => {
   const dispatch = useDispatch();
-  const [recipe, setRecipe] = useState([]);
+  const {recipe} = useSelector((state)=>state.recipe)
+  // const [recipe, setRecipe] = useState([]);
   
-  const handleGetRecipe =  () => {
+  const handleGetRecipe = async () => {
 
-    axios.get(`${import.meta.env.VITE_API_URL}/recipe`).then((res) => {
-      console.log(res.data.data);
-      setRecipe(res.data.data);
-    });
-    // try {
-    //   const recipes = await dispatch(getRecipe(recipe))
-    //   console.log(recipes);
+    // axios.get(`${import.meta.env.VITE_API_URL}/recipe`).then((res) => {
+    //   console.log(res.data.data);
+    //   setRecipe(res.data.data);
+    // });
+    try {
+      const recipes = await dispatch(getRecipe(recipe))
+      console.log(recipes);
 
-    // } catch (error) {
-    //   console.log(error);
-    // }
+    } catch (error) {
+      console.log(error);
+    }
 
   };
     
-  
-
   // const handleProfile = () => {
 
   // }

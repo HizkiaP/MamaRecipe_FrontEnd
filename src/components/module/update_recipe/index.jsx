@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 // import React from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 import axios from "axios";
+import PropTypes from 'prop-types'
 
 const UpdateRecipe = ({show, onHide, recipeId}) => {
 
@@ -123,5 +124,7 @@ const UpdateRecipe = ({show, onHide, recipeId}) => {
     </>
   );
 };
+
+
 
 export default UpdateRecipe;

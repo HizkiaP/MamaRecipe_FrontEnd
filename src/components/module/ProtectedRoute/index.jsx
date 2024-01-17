@@ -1,6 +1,6 @@
 // import React from 'react'
 import { Navigate } from 'react-router-dom'
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
 
 
 const ProtectedRoute = ({children}) => {
@@ -14,8 +14,8 @@ const ProtectedRoute = ({children}) => {
   
 }
 
-// ProtectedRoute.proptypes = {
-//     children: PropTypes
-// }
+ProtectedRoute.proptypes = {
+    children: PropTypes.any
+}
 
 export default ProtectedRoute

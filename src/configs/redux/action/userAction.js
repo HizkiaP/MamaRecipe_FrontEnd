@@ -5,7 +5,7 @@ export const login = (data) => async (dispatch) => {
     dispatch({ type: "LOGIN_REQUEST" });
     const response = await api.post("/login", data);
     const user = response.data;
-    localStorage.setItem("id", user.data.rows[0].user_id);
+    // localStorage.setItem("id", user.data.rows[0].user_id);
     localStorage.setItem("token", user.token);
     // localStorage.setItem("refresh-token", user.refreshToken);
     dispatch({ type: "LOGIN_SUCCESS", payload: user });
