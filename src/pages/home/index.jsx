@@ -12,6 +12,7 @@ import Image7 from '../../../asset/images/banana-smoothie.png'
 import Image8 from '../../../asset/images/cake-coffee.png'
 import Image9 from '../../../asset/images/salmon-sugar.png'
 import Image10 from '../../../asset/images/salad-indian.png'
+import { Link } from 'react-router-dom'
 // import {useSelector, useDispatch} from 'react-redux'
 import './home.css'
 
@@ -38,7 +39,7 @@ const Main = () => {
                     </div>
                     <div className="position-absolute px-5 input-search">
                         <input type="text" id="searchRestaurant" className="inp-search"
-                            placeholder="search restaurant, food"/>
+                            placeholder="search restaurant, food"></input>
                     </div>
                     <div className="position-absolute px-5 glass">
                         <img src={Image2} alt="search" className="magnifying"/>

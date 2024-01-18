@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import {FaTrash} from 'react-icons/fa'
 import { TbEdit } from "react-icons/tb";
 import Swal from "sweetalert2";
-import axios from "axios";
+// import axios from "axios";
 import { useState } from "react";
 import { useDispatch } from 'react-redux';
 // import Modal from "../update_recipe";

@@ -40,8 +40,18 @@ function App() {
             </ProtectedRoute>
           }
         />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/add-recipe" element={<AddRecipe />} />
+        <Route path="/profile" element={
+          <ProtectedRoute>
+            <Profile />
+          </ProtectedRoute>
+        } 
+        />
+        <Route path="/add-recipe" element={
+          <ProtectedRoute>
+            <AddRecipe />
+          </ProtectedRoute>
+        } 
+        />
         <Route path="/detail-recipe" element={<DetailRecipe />} />
         <Route path="/detail-video" element={<DetailVideo />} />
         <Route path="/search-page" element={<SearchPage />} />
