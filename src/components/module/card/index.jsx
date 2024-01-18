@@ -76,8 +76,8 @@ const Card = ({ data }) => {
     <>
     <div>
       <img src={data.photo} alt={data.title} className="chicken-bomb mt-3" />
-      <button onClick={() => handleDelete(data.recipe_id)} className="delete-button"><FaTrash/></button>
-      <button onClick={() => handleUpdate(data.recipe_id)}><TbEdit/></button>
+      <button onClick={() => handleDelete(data.recipe_id)} className="position-absolute delete-button"><FaTrash /></button>
+      <button onClick={() => handleUpdate(data.recipe_id)} className="position-absolute edit-button"><TbEdit/></button>
       <p className="position-absolute chicken-text">
         {data.title}
       </p>
