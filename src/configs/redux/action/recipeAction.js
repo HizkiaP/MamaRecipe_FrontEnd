@@ -13,7 +13,7 @@ export const getRecipe = (data) => async (dispatch) => {
   }
 };
 
-export const searchRecipe = (data, keyword, sort, limit, offset) => async (dispatch) => {
+export const searchRecipe = ({keyword, sort, limit, page}) => async (dispatch) => {
     try {
       dispatch({ type: "SEARCH_RECIPE_REQUEST" });
       // const response = await api.get(`/search?keyword=${keyword}&sort=${sort}&limit=${limit}&offset${offset}`, data);
@@ -22,7 +22,7 @@ export const searchRecipe = (data, keyword, sort, limit, offset) => async (dispa
           keyword,
           sort,
           limit,
-          offset
+          page
         }
       })
       const recipe = response.data;

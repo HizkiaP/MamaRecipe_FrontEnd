@@ -25,7 +25,7 @@ const Login = () => {
     try {
       const user = await dispatch(login(data));
       console.log(user);
-      navigate("/main");
+      navigate("/");
     } catch (error) {
       console.log(error);
     }

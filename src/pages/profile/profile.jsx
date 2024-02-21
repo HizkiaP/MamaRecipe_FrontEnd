@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 // import React from "react";
 // import axios from "axios";
 import Image from "../../../asset/images/Ellipse 127.svg";

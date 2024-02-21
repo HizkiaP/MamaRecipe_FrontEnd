@@ -12,9 +12,10 @@ import Image7 from '../../../asset/images/banana-smoothie.png'
 import Image8 from '../../../asset/images/cake-coffee.png'
 import Image9 from '../../../asset/images/salmon-sugar.png'
 import Image10 from '../../../asset/images/salad-indian.png'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 // import {useSelector, useDispatch} from 'react-redux'
 import './home.css'
+import { Link } from 'react-router-dom'
 
 
 const Main = () => {
@@ -83,7 +84,7 @@ const Main = () => {
                             ramen in a hurry? That’s right!</p>
                     </div>
                     <div className="position-relative">
-                        <button type="button" className="position-absolute learn"><a href="detail-recipe.html">Learn More</a></button>
+                        <button type="button" className="position-absolute learn"><Link to="/detail-recipe">Learn More</Link></button>
                     </div>
                 </div>
             </div>

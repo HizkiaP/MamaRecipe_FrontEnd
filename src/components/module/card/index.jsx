@@ -67,7 +67,7 @@ const Card = ({ data }) => {
       Swal.fire({
         icon: "error",
         title: "Delete Failed",
-        text: "Delete Failed"
+        text: "Delete Failed" 
       })
     }
   }

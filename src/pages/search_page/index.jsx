@@ -12,12 +12,12 @@ const SearchPage = () => {
     keyword: "",
     sort: "title",
     limit: 2,
-    offset: 1,
+    page: 1,
   });
   const [sort, setSort] = useState("ASC");
 
   const handleSearchRecipe = () => {
-    dispatch(searchRecipe({ sort, keyword: searchByRecipe }));
+    dispatch(searchRecipe({ sort: searchByRecipe.sort, keyword: searchByRecipe.keyword, limit: searchByRecipe.limit, page: searchByRecipe.page}));
   };
 
   const handleSort = () => {

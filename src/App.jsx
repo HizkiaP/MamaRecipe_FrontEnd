@@ -33,7 +33,7 @@ function App() {
         />
 
         <Route
-          path="/main"
+          path="/"
           element={
             <ProtectedRoute>
               <Main />
