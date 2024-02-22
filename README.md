@@ -10,11 +10,15 @@ Mama Recipe is a web used to share information about food recipes and browse foo
 - Users can edit their profile.
 - Users can edit or delete their existing recipes.
 
+<br />
+
 ## Built With
 
 - React JS
 - Bootstrap
 - Redux Thunks
+
+<br />
 
 ## Package dependencies
 
@@ -29,12 +33,14 @@ Mama Recipe is a web used to share information about food recipes and browse foo
 - redux-thunk
 - sweetalert2
 
+<br />
 
 ## Environment Variables
 
 bash
 VITE_API_URL=
 
+<br />
 
 ## Installation
 
@@ -61,10 +67,11 @@ Start the project
 bash
   npm start
 
+<br />
 
 ## Screenshot
 
-
+<br />
 
 ## Authors
 
