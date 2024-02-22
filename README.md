@@ -18,6 +18,16 @@ Mama Recipe is a web used to share information about food recipes and browse foo
 
 ## Package dependencies
 
+- axios
+- bootstrap
+- react-bootstrap
+- react-dom
+- react-icons
+- react-redux
+- react-router-dom
+- redux
+- redux-thunk
+- sweetalert2
 
 
 ## Environment Variables
@@ -31,7 +41,7 @@ VITE_API_URL=
 Clone the project
 
 bash
-  git clone https://github.com/abdulnaim6/fe-blanja-team my-project
+  git clone https://github.com/HizkiaP/MamaRecipe_FrontEnd.git my-project
 
 
 Go to the project directory
@@ -54,7 +64,6 @@ bash
 
 ## Screenshot
 
-⚡Costumer⚡
 
 
 ## Authors
@@ -65,5 +74,5 @@ bash
 
 ## Related Project
 
-⚡[Backend Blanja](https://github.com/abdulnaim6/be-blanja-team)⚡
+⚡[Mama Recipe Mobile App](https://github.com/abdulnaim6/be-blanja-team)⚡
 
