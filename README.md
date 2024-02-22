@@ -81,5 +81,5 @@ bash
 
 ## Related Project
 
-⚡[Mama Recipe Mobile App](https://github.com/abdulnaim6/be-blanja-team)⚡
+⚡[Mama Recipe Mobile App](https://github.com/HizkiaP/MamaRecipe_Mobile)⚡
 
