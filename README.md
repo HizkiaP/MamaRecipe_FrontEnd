@@ -73,6 +73,10 @@ bash
 | Login Page | Register Page |
 |------------|---------------|
 |<img src="https://drive.google.com/uc?export=view&id=1qVIig3v2NJ3bxCeBtB5jcfzeVOqwrBy9" width=400/>| <img src="https://drive.google.com/uc?export=view&id=1KSiHMwJlnmXaBFRo44FdabrIF5emCzNN" width=400/>|
+
+| Home Page | Add Recipe Page |
+|------------|---------------|
+|<img src="https://drive.google.com/uc?export=view&id=1RqbfzctOwRngqcibXm4H2erbNfF1_Zcp" width=400/>| <img src="https://drive.google.com/uc?export=view&id=13Pm1xludwD_87iYe7J8XXEJreTr1q7UF" width=400/>|
 <br />
 
 ## Authors
