@@ -76,7 +76,7 @@ bash
 
 | Home Page | Add Recipe Page |
 |------------|---------------|
-|<img src="https://drive.google.com/uc?export=view&id=1RqbfzctOwRngqcibXm4H2erbNfF1_Zcp" width=400/>| <img src="https://drive.google.com/uc?export=view&id=13Pm1xludwD_87iYe7J8XXEJreTr1q7UF" width=400/>|
+|<img src="https://drive.google.com/uc?export=view&id=1RqbfzctOwRngqcibXm4H2erbNfF1_Zcp" width=300/>| <img src="https://drive.google.com/uc?export=view&id=13Pm1xludwD_87iYe7J8XXEJreTr1q7UF" width=300/>|
 <br />
 
 ## Authors
