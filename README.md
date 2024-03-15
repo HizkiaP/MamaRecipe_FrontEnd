@@ -74,7 +74,6 @@ bash
 |------------|---------------|
 |<img src="https://drive.google.com/uc?export=view&id=1qVIig3v2NJ3bxCeBtB5jcfzeVOqwrBy9" width=400/>| <img src="https://drive.google.com/uc?export=view&id=1KSiHMwJlnmXaBFRo44FdabrIF5emCzNN" width=400/>|
 
-<p align='center'>
 | Home Page |
 |------------|
 |<img src="https://drive.google.com/uc?export=view&id=1RqbfzctOwRngqcibXm4H2erbNfF1_Zcp" width=400/>|
@@ -82,6 +81,10 @@ bash
 | Add Recipe Page | Profile Page |
 |------------|---------------|
 |<img src="https://drive.google.com/uc?export=view&id=13Pm1xludwD_87iYe7J8XXEJreTr1q7UF" width=400/>| <img src="https://drive.google.com/uc?export=view&id=1cGsJ7frgqakJkPxU4jjeqzeu32y7oWXo" width=400/>|
+
+| Detail Ingredients Page | Detail Video Page |
+|------------|---------------|
+|<img src="https://drive.google.com/uc?export=view&id=1Tee89-PMQQbdVUhICgPMT0vVwGHbR3mf" width=400/>| <img src="https://drive.google.com/uc?export=view&id=1OKlnTIc3GvgkJl16apTDS_dy9f0-k4j8" width=400/>|
 <br />
 
 ## Authors
