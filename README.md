@@ -72,7 +72,7 @@ bash
 ## Screenshot
 | Login Page | Register Page |
 |------------|---------------|
-|<img src="https://drive.google.com/uc?export=view&id=1klDU4AbkwK1GUgKJhozQQnl_ML3JDB1f" width=250/>| <img src="[https://drive.google.com/uc?export=view&id=1klDU4AbkwK1GUgKJhozQQnl_ML3JDB1f](https://drive.google.com/uc?export=view&id=1uUdrutecGDyJ5K8YRSU8Tdl1hIVtZQ84))" width=300/>|
+|<img src="https://drive.google.com/uc?export=view&id=1qVIig3v2NJ3bxCeBtB5jcfzeVOqwrBy9" width=250/>| <img src="https://drive.google.com/uc?export=view&id=1KSiHMwJlnmXaBFRo44FdabrIF5emCzNN" width=300/>|
 <br />
 
 ## Authors
