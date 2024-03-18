@@ -95,5 +95,7 @@ bash
 
 ## Related Project
 
+⚡[Backend Mama Recipe](https://github.com/HizkiaP/Intermediate_Backend-Kia)⚡
+
 ⚡[Mama Recipe Mobile App](https://github.com/HizkiaP/MamaRecipe_Mobile)⚡
 
