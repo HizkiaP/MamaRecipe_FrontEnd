@@ -5,17 +5,21 @@ import { TbEdit } from "react-icons/tb";
 import Swal from "sweetalert2";
 // import axios from "axios";
 import { useState } from "react";
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 // import Modal from "../update_recipe";
 import UpdateRecipe from "../update_recipe";
 import { deleteRecipe } from '../../../configs/redux/action/recipeAction';
+import { useNavigate, useParams } from 'react-router-dom';
 // import DeleteConfirmationModal from "../update_recipe";
 
 const Card = ({ data }) => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const [deleteRecipeId, setDeleteRecipeId] = useState();
-  const [showModal, SetModal] = useState(false)
-  const [selectById, setSelectById] = useState(null)
+  const [showModal, SetModal] = useState(false);
+  const [selectById, setSelectById] = useState(null);
+  // let {recipe_id} = useParams();
+  // const {recipe} = useSelector((state) => state.recipe);
 
   const handleUpdate = (recipeId) => {
     setSelectById(recipeId)
@@ -37,7 +41,7 @@ const Card = ({ data }) => {
       if (result.isConfirmed) {
         handleDeleteRecipe(recipe_id)
       } else {
-        setDeleteRecipeId(null); // Clear the deleteRecipeId if user cancels deletion
+        setDeleteRecipeId(null);
       }
     });
   }
@@ -74,8 +78,8 @@ const Card = ({ data }) => {
 
   return (
     <>
-    <div>
-      <img src={data.photo} alt={data.title} className="chicken-bomb mt-3" />
+    <div className='position-relative'>
+      <img src={data.photo} alt={data.title} className="chicken-bomb mt-3" onClick={() => navigate(`/detail-recipe/${data.recipe_id}`)} />
       <button onClick={() => handleDelete(data.recipe_id)} className="position-absolute delete-button"><FaTrash /></button>
       <button onClick={() => handleUpdate(data.recipe_id)} className="position-absolute edit-button"><TbEdit/></button>
       <p className="position-absolute chicken-text">
@@ -85,7 +89,7 @@ const Card = ({ data }) => {
     <UpdateRecipe
       show = {showModal}
       onHide={()=>SetModal(false)}
-      recipeId={selectById}
+      recipe_id={selectById}
       />
     </>
   );

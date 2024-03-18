@@ -59,7 +59,7 @@ const Register = () => {
         <div className="row regis-wrapper">
           <div className="col-md position-relative wrapper1">
             <img
-              className="opacity-25 bground"
+              className="opacity-50 bground"
               src={Image}
               alt="background-login"
             />
@@ -71,12 +71,13 @@ const Register = () => {
             {/* <!-- <p className="position-absolute start-50 translate-middle mama">Mama Recipe.</p> --> */}
           </div>
           <div className="col-md wrapper2">
-            <div className="text-center mb-2 title">
+            <div className="mb-2 titles">
               <h2>Let’s Get Started !</h2>
               <p>Create new account to access all features</p>
             </div>
-            <div className="mb-3 ms-2 name">
-              <Input 
+            <div className="mb-3 name">
+              <Input
+              // className="fs-1" 
               type="text" 
               placeholder="Name" 
               label="Name"
@@ -87,7 +88,7 @@ const Register = () => {
                     <input type="text" className="form-control opacity-50" id="formGroupExampleInput"
                         placeholder="Name"> */}
             </div>
-            <div className="mb-3 ms-2 address">
+            <div className="mb-3 address">
               <Input
                 type="text"
                 placeholder="Enter email address"
@@ -99,7 +100,7 @@ const Register = () => {
               {/* <label for="formGroupExampleInput2" className="form-label">Email Address</label>
                     <input type="text" className="form-control opacity-50" id="formGroupExampleInput2" placeholder="Enter email address"> */}
             </div>
-            <div className="mb-3 ms-2 phone">
+            <div className="mb-3 phone">
               <Input
                 type="text"
                 placeholder="08xxxxxxxxxx"
@@ -112,7 +113,7 @@ const Register = () => {
                     <input type="text" className="form-control opacity-50" id="formGroupExampleInput"
                         placeholder="08xxxxxxxxxx"> */}
             </div>
-            <div className="mb-3 ms-2 pass">
+            <div className="mb-3 pass">
               <Input
                 type="password"
                 placeholder="Create New Password"
@@ -124,7 +125,7 @@ const Register = () => {
               {/* <label for="formGroupExampleInput2" className="form-label">Create New Password</label>
                     <input type="text" className="form-control opacity-50" id="formGroupExampleInput2" placeholder="Create New Password"> */}
             </div>
-            <div className="mb-3 ms-2 new-pass">
+            <div className="mb-3 new-pass">
               <Input
                 type="password"
                 placeholder="New Password"
@@ -136,24 +137,24 @@ const Register = () => {
               {/* <label for="formGroupExampleInput2" className="form-label">New Password</label>
                     <input type="text" className="form-control opacity-50" id="formGroupExampleInput2" placeholder="New Password"> */}
             </div>
-            <div className="form-check ms-2">
+            <div className="form-checks">
               <input
                 className="form-check-input"
                 type="checkbox"
                 value=""
                 id="flexCheckDefault"
               />
-              <label className="form-check-label" htmlFor="flexCheckDefault">
+              <label className="form-check-label ms-2" htmlFor="flexCheckDefault">
                 I agree to terms & conditions
               </label>
             </div>
-            <div className="mt-4 ms-2">
+            <div className="mt-4 btn-regis">
               <Button onClick={handleRegister}>{loading ? "loading..." : "Register Account"}</Button>
               {/* <button className="btn" type="submit">Register Account</button> */}
             </div>
             <div className="mt-2">
               <p>
-                <Link to="/login" className="ms-2 acc">
+                <Link to="/login" className="ms-2 accs">
                   Already have account?{" "}
                   <span className="sign">Log in Here</span>
                 </Link>

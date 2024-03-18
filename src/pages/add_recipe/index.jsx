@@ -29,7 +29,9 @@ const AddRecipe = () => {
 
   const handleAddRecipe = async (e) => {
     try {
-      e.preventDefault(); 
+    e.preventDefault();
+    const token = localStorage.getItem('token');
+    console.log('GET TOKEN = ', token); 
     const form = new FormData();
     form.append("title", addRecipe.title);
     form.append("ingredients", addRecipe.ingredients);
@@ -38,7 +40,7 @@ const AddRecipe = () => {
     const recipe = await dispatch(postRecipe(form))
     console.log(recipe);
     alert("Add Recipe Success")
-    navigate("/main")
+    navigate("/profile")
     } catch (error) {
       console.log(error);
     }
@@ -104,7 +106,7 @@ const AddRecipe = () => {
                   onChange={handleChange}
                   type="text"
                   className="text-start ps-4 opacity-50 add-video"
-                  placeholder="Video"
+                  placeholder="ex: https://www.youtube.com/embed/6rPXs64N2Hw"
                   name="video"
                   value={addRecipe.video}
                 />

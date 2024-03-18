@@ -52,8 +52,8 @@ function App() {
           </ProtectedRoute>
         } 
         />
-        <Route path="/detail-recipe" element={<DetailRecipe />} />
-        <Route path="/detail-video" element={<DetailVideo />} />
+        <Route path="/detail-recipe/:recipe_id" element={<DetailRecipe />} />
+        <Route path="/detail-video/:recipe_id" element={<DetailVideo />} />
         <Route path="/search-page" element={<SearchPage />} />
       </Routes>
     </BrowserRouter>

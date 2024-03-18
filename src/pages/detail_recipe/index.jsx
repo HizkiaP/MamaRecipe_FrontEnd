@@ -1,25 +1,47 @@
 // import React from "react";
-import Image from '../../../asset/images/egg-recipe.png'
-import Image2 from '../../../asset/images/Rectangle 314.png'
-import './detail-recipe.css'
+import Image from "../../../asset/images/egg-recipe.png";
+import Image2 from "../../../asset/images/Rectangle 314.png";
+import Image3 from "../../../asset/images/play.svg";
+import "./detail-recipe.css";
 import Navbar from "../../components/module/navbar";
 import Footer from "../../components/module/footer";
+import { useDispatch, useSelector } from "react-redux";
+import { getRecipeId } from "../../configs/redux/action/recipeAction";
+import { useEffect } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 
 const DetailRecipe = () => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const { recipe } = useSelector((state) => state.recipe);
+  let {recipe_id} = useParams();
+
+  const handleGetRecipeID = async () => {
+    try {
+      const recipeByID = await dispatch(getRecipeId(recipe_id));
+      console.log("RECIPE BY ID = ", recipeByID);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    handleGetRecipeID();
+  }, []);
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <div className="container-fluid">
         <div className="container">
           <div className="row">
             <div className="col text-center ">
               <div>
-                <p className="recipe-title">Loream Sandwich</p>
+                <p className="recipe-title">{recipe.title}</p>
               </div>
               <div>
                 <img
                   className="mt-3 egg-recipe"
-                  src={Image}
+                  src={recipe.photo}
                   alt="egg-recipe"
                 />
                 {/*  <img className="position-absolute square1" src="assets/images/Group 66.svg" alt="">
@@ -38,13 +60,14 @@ const DetailRecipe = () => {
             <div className="col pt-5 offset-2">
               <h5 className="ingredient">Ingredients</h5>
               <p className="pt-3 pb-2">
-                - 2 eggs <br />
+                {/* - 2 eggs <br />
                 - 2 tbsp mayonnaise <br />
                 - 3 slices bread <br />
                 - a little butter <br />
                 - ⅓ carton of cress <br />
                 - 2-3 slices of tomato or a lettuce leaf and a slice of ham or
-                cheese <br />- crisps , to serve
+                cheese <br />- crisps , to serve */}
+                {recipe.ingredients}
               </p>
             </div>
           </div>
@@ -56,29 +79,14 @@ const DetailRecipe = () => {
           <div className="row">
             <div className="col offset-2">
               <h5 className="pb-3 video">Video Step</h5>
-              <img
-                src={Image2}
-                alt="rectangle"
-                className="img-fluid pb-3 square"
-              />{" "}
-              <br />
-              <img
-                src={Image2}
-                alt="rectangle"
-                className="img-fluid pb-3 square"
-              />{" "}
-              <br />
-              <img
-                src={Image2}
-                alt="rectangle"
-                className="img-fluid pb-3 square"
-              />{" "}
-              <br />
-              <img
-                src={Image2}
-                alt="rectangle"
-                className="img-fluid pb-3 square"
-              />
+              <button className="btn-play position-relative" onClick={() => navigate(`/detail-video/${recipe.recipe_id}`)}>
+                <img
+                  src={Image2}
+                  alt="rectangle"
+                  className="img-fluid pb-3 square"
+                />
+                <img src={Image3} alt="play" className="play-btn position-absolute"/>
+              </button>
             </div>
           </div>
         </div>
@@ -113,7 +121,7 @@ const DetailRecipe = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

@@ -12,6 +12,55 @@
     padding-right: 9rem;
 } */
 
+.titles {
+    margin-top: 10px;
+}
+
+.titles h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color: #EFC81A;
+    margin-left: 210px;
+}
+
+.titles p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #8692A6;
+    font-weight: 400;
+    padding-top: 10px;
+    margin-left: 160px;
+}
+
+.name {
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.address {
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.phone {
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.pass {
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.new-pass {
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.form-checks {
+    margin-left: 50px;
+}
+
 .regis-wrapper {
     height: 100vh;
 }
@@ -19,4 +68,15 @@
 img.bground {
     width: 101.5%;
     height: 100%;
+}
+
+.btn-regis {
+    margin-left: 100px;
+}
+
+.accs {
+    text-decoration: none;
+    color: #999999;
+    font-size: 12px;
+    padding-left: 200px;
 }

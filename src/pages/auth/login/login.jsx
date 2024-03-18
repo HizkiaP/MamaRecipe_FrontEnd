@@ -59,9 +59,9 @@ const Login = () => {
     <>
       <div className="container-md-fluid">
         <div className="row login-wrapper1">
-          <div className="col col-6 position-relative column1">
+          <div className="col-sm-12 col-md-4 col-lg-6 position-relative column1">
             <img
-              className="opacity-25 bground"
+              className="opacity-50 bground"
               src={Image2}
               alt="background-login"
             />
@@ -72,12 +72,12 @@ const Login = () => {
             />
             {/* <!-- <p className="position-absolute start-50 translate-middle mama">Mama Recipe.</p> --> */}
           </div>
-          <div className="col col-6 mt-5">
+          <div className="col-sm-12 col-md-4 col-lg-6 wrapper-login">
             <div className="col-lg-10 mb-5 text-center title">
               <h2>Welcome</h2>
               <p>Log in into your exiting account</p>
             </div>
-            <div className="mb-3 ms-2 email">
+            <div className="mb-3 email">
               <Input
                 type="text"
                 placeholder="examplexxx@gmail.com"
@@ -90,7 +90,7 @@ const Login = () => {
                     <input type="text" className="form-control opacity-50" id="formGroupExampleInput"
                         placeholder="examplexxx@gmail.com"/> */}
             </div>
-            <div className="mb-3 ms-2 password">
+            <div className="mb-3 password">
               <Input
                 type="password"
                 placeholder="Password"
@@ -102,7 +102,7 @@ const Login = () => {
               {/* <label htmlFor="formGroupExampleInput2" className="form-label">Password</label>
                     <input type="text" className="form-control opacity-50" id="formGroupExampleInput2" placeholder="Password"/> */}
             </div>
-            <div className="form-check ms-2">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -113,7 +113,7 @@ const Login = () => {
                 I agree to terms & conditions
               </label>
             </div>
-            <div className="mt-4 ms-2">
+            <div className="mt-4 btn-logins">
               <Button onClick={handleLogin}>{loading ? "loading..." : "Login"}</Button>
               {/* <button className="btn" type="submit"> <a className="log" href="landingpage.html">Log in</a></button> */}
             </div>

@@ -1,6 +1,13 @@
 .add-pp {
-    width: 122px;
-    height: 122px;
+    width: 162px;
+    height: 162px;
+    border-radius: 100px;
+}
+
+.pencil {
+    transform: translate(150%, -80%);
+    border: none;
+    background: none;
 }
 
 .profile-name {
@@ -66,4 +73,10 @@
 .edit-button {
     top: 30px;
     right: 55px;
+}
+
+.btn-recipe {
+    border: none;
+    background: none;
+    /* width: auto; */
 }

@@ -10,7 +10,6 @@ const Button = ({onClick, type, ...props}) => {
 Button.proptypes = {
   type: PropTypes.string,
   onclick: PropTypes.object
-  
 }
 
 export default Button
