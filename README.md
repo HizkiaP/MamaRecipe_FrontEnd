@@ -85,6 +85,11 @@ bash
 | Detail Ingredients Page | Detail Video Page |
 |------------|---------------|
 |<img src="https://drive.google.com/uc?export=view&id=1Tee89-PMQQbdVUhICgPMT0vVwGHbR3mf" width=400/>| <img src="https://drive.google.com/uc?export=view&id=1OKlnTIc3GvgkJl16apTDS_dy9f0-k4j8" width=400/>|
+
+| Search Page |
+|------------|
+|<img src="https://drive.google.com/uc?export=view&id=19qjJs2ZxbCHQSdg0Up3BffKebHJ6gppl" width=400/>|
+
 <br />
 
 ## Authors
@@ -94,6 +99,8 @@ bash
 <br />
 
 ## Related Project
+
+⚡[Backend Mama Recipe](https://github.com/HizkiaP/Intermediate_Backend-Kia)⚡
 
 ⚡[Mama Recipe Mobile App](https://github.com/HizkiaP/MamaRecipe_Mobile)⚡
 
